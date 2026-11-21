@@ -1,0 +1,19 @@
+{
+  "name": "gold-rate-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily Sri Lanka 24K gold rate dashboard - scrapes seller and benchmark rates, highlights the cheapest seller.",
+  "type": "module",
+  "scripts": {
+    "scrape": "tsx src/scrape.ts",
+    "dashboard": "start \"\" \"public/index.html\""
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
